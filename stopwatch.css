@@ -1,0 +1,90 @@
+*{
+    /* background-color: #dc2f02; */
+    margin: 0;
+    padding: 0;
+}
+#heading-main{
+    text-align: center;
+    font-size:20px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(248, 238, 238);
+    margin: 50px;
+    background-color: #dc2f02;
+}
+#body-time{
+    text-align: center;
+    font-size: 90px;
+    color: rgb(6, 6, 6);
+    margin: 10px;
+    border: solid;
+    border-radius: 50px;
+    background-color: rgb(138, 135, 135);
+}
+#button{
+
+    margin: 50px;
+    color: rgb(245, 246, 247);
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    
+}
+#start{
+    background-color: rgb(32, 165, 88);
+    padding: 2px;
+    padding:15px;
+    width: 100px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+#stop{
+    background-color: rgb(56, 99, 135);
+    padding: 2px;
+    padding:15px;
+    width: 100px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: white;
+}
+#reset{
+    background-color: rgb(197, 60, 10);
+    padding: 2px;
+    padding:15px;
+    width: 100px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#start:hover{
+    font-size: larger;
+    margin: 5px;
+    font-weight: bolder;
+    border: solid;
+   
+    box-shadow: 0 12px 16px 0 rgba(11, 11, 11, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#stop:hover{
+    font-size: larger;
+    margin: 5px;
+    font-weight: bolder;
+    border: solid;
+   
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#reset:hover{
+    font-size: larger;
+    margin: 5px;
+    font-weight: bolder;
+    border: solid;
+   
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.text{
+    font-size: medium;
+}
+.digit
+{
+    font-weight: bold;
+}
